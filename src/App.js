@@ -1,6 +1,5 @@
 import React from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
-import NoMatch from './components/NoMatch';
 import HomePage from './pages/HomePage';
 
 const App = () => {
