@@ -8,7 +8,7 @@
     "build": "webpack --mode production",
     "start": "webpack serve --mode development",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d static"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/kara4600/portfolio/issues"
   },
-  "homepage": "https://github.com/kara4600/portfolio#readme",
+  "homepage": "https://github.com/kara4600/portfolio",
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
