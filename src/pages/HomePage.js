@@ -6,6 +6,7 @@ import Header from '../components/Header';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import Education from '../components/Education';
+import Experience from '../components/Experience';
 
 const HomePage = () => {
   return (
@@ -33,6 +34,7 @@ const HomePage = () => {
           </Grid>
         </Fade>
         <Education />
+        <Experience />
         <Contact />
       </Grid>
       <Footer />
