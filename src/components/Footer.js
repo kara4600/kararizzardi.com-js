@@ -44,7 +44,7 @@ const Footer = () => {
             fontWeight={'500'}
             color="text.secondary"
           >
-            This custom site was built by me. Check out{' '}
+            This custom site was built with ❤️ by me. Check out{' '}
             <Link
               href="https://github.com/kara4600/kararizzardi.com"
               target={'_blank'}
