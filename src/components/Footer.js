@@ -46,7 +46,7 @@ const Footer = () => {
           >
             This custom site was built by me. Check out{' '}
             <Link
-              to="https://github.com/kara4600/portfolio"
+              href="https://github.com/kara4600/kararizzardi.com"
               target={'_blank'}
               style={{ color: '#9DBBE9' }}
             >
