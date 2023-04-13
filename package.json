@@ -12,13 +12,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kara4600/portfolio.git"
+    "url": "git+https://github.com/kara4600/kararizzardi.com.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kara4600/portfolio/issues"
+    "url": "https://github.com/kara4600/kararizzardi.com/issues"
   },
   "homepage": "www.kararizzardi.com",
   "dependencies": {
