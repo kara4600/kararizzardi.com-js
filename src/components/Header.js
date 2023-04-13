@@ -3,11 +3,20 @@ import { Link } from 'react-router-dom';
 import Button from '@mui/material/Button';
 import Grid from '@mui/material/Grid';
 import LaunchIcon from '@mui/icons-material/Launch';
+import MobileNavMenu from './MobileNavMenu';
 
 const Header = () => {
   return (
     <div>
-      <Grid container item direction={'row'}>
+      <Grid
+        container
+        item
+        sx={{ display: { xs: 'none', sm: 'flex' } }}
+        direction={'row'}
+        width={'70%'}
+        marginX={'auto'}
+        mt={'1%'}
+      >
         <Link to="/">
           <Button>Home</Button>
         </Link>
@@ -17,9 +26,21 @@ const Header = () => {
         >
           <Button>Resume{<LaunchIcon />}</Button>
         </Link>
-        <Link to="https://github.com/kara4600/portfolio" target={'_blank'}>
+        <Link
+          to="https://github.com/kara4600/kararizzardi.com"
+          target={'_blank'}
+        >
           <Button>Github {<LaunchIcon />}</Button>
         </Link>
+      </Grid>
+
+      <Grid
+        container
+        item
+        sx={{ display: { xs: 'flex', sm: 'none' } }}
+        direction={'row'}
+      >
+        <MobileNavMenu />
       </Grid>
     </div>
   );

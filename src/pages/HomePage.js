@@ -11,6 +11,7 @@ import Experience from '../components/Experience';
 const HomePage = () => {
   return (
     <div>
+      <Header />
       <Grid
         container
         direction={'column'}
@@ -18,14 +19,14 @@ const HomePage = () => {
         marginX={'auto'}
         mt={'1%'}
       >
-        <Header />
         <Fade in timeout={2000}>
           <Grid
+            container
             item
             justifyContent={'center'}
             marginX={'auto'}
-            marginY={'100px'}
-            width={'50%'}
+            marginY={{ xs: '50px', sm: '100px' }}
+            width={{ xs: '100%', sm: '60%' }}
           >
             <Typography fontWeight={'600'} variant="h4">
               Hello, I'm Kara Rizzardi. I'm an electrical engineering & computer
