@@ -12,7 +12,15 @@ const Contact = () => {
           Get in touch {<SendIcon />}
         </Typography>
         <Typography variant="body1">
-          Email me or message me on{' '}
+          Check out{' '}
+          <Link
+            to="https://github.com/kara4600/kararizzardi.com/blob/b05ac5e7ccb6ae5d0e0017455396f74b04ce47b6/Kara_Rizzardi_Resume.pdf"
+            target={'_blank'}
+            style={{ color: '#9DBBE9' }}
+          >
+            my resume
+          </Link>{' '}
+          or message me on{' '}
           <Link
             to="https://www.linkedin.com/in/kararizzardi/"
             target={'_blank'}
